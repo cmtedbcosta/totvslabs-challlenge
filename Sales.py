@@ -143,7 +143,7 @@ plt.grid(True)
 # Plot sales by day
 day_data = df_notas.groupby('day')
 day_data.count().plot(y='complemento.valorTotal', legend=False)
-day_data.sort_values('day')
+#day_data.sort_values('day')
 plt.xlabel('Day')
 plt.ylabel('Receipt count')
 plt.grid(True)
